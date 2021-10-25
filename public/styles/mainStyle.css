@@ -1,0 +1,82 @@
+nav a {
+    text-decoration: none;
+    color: inherit;
+}
+
+nav a:hover {
+    text-decoration: none;
+    color: inherit;
+}
+
+
+/* //////////////////////////////////////////////////////////////////////////////////// */
+
+#features {
+    /* column-gap: 40px; */
+    /* display: flex; */
+    flex-wrap: wrap;
+    width: 90%;
+    margin-top: 5%;
+    margin-left: 4.5%;
+    overflow: hidden;
+    padding: 1.5%;
+    background-color: white;
+    text-align: center;
+    /* margin: auto; */
+    /* position: center; */
+}
+
+.each_feature {
+    width: 25%;
+    float: left;
+    text-align: center;
+    background-color: white;
+    border: 3px solid rgb(153, 142, 184);
+    margin: 2% 4% 5%;
+    -webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    transition: all 0.3s;
+    /* z-index: 1; */
+}
+
+.each_feature img {
+    width: 100%;
+}
+
+.each_feature a:hover {
+    text-decoration: none;
+}
+
+.each_feature:hover {
+    transform: scale(1.075);
+    border: 5px solid rgb(74, 65, 129);
+    /* z-index: 1; */
+}
+
+.each_feature h3 {
+    font-size: 22px;
+    font-weight: bold;
+    color: #1c223a;
+    margin-bottom: 20px;
+}
+
+
+/* //////////////////////////////////////////////////////////////////////////////////// */
+
+.details {
+    width: 100%;
+}
+
+#bangladesh {
+    width: 25%;
+}
+
+#footer {
+    /* position: fixed; */
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: red;
+    color: white;
+    text-align: center;
+}
